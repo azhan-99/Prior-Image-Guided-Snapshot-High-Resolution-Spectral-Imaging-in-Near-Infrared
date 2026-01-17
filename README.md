@@ -1,41 +1,29 @@
 # Prior Image Guided Snapshot High Resolution Spectral Imaging in Near-Infrared
 Prior Image Guided Snapshot High-Resolution  Spectral Imaging in Near Infrared (TIP2025)
 
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![IEEE TIP](https://img.shields.io/badge/IEEE_TIP-Accepted-00629B)](https://ieeexplore.ieee.org/abstract/document/11051133/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![Paper](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/)
 
 ## 📖 Introduction
 
-Here involves the brief introduction of your project. This project implements a simulation pipeline for [Specific Optical Phenomenon] and reconstructs images using deep learning.
+This repository contains the official implementation of the paper **"Prior Image Guided Snapshot High-Resolution Spectral Imaging in Near Infrared"**, published in **IEEE Transactions on Image Processing (TIP)**.
 
-## 🔬 System Overview (Optical Setup)
+We propose a novel method for high-resolution spectral imaging using prior image guidance.
 
-We have designed a custom optical setup including a laser source, collimator, and a coded aperture.
+## 🔬 Prototype System Overview
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="./assets/optical_schematic.png" width="400"/>
-      <br />
-      <figcaption><b>Fig 1. Schematic of the Optical Path</b></figcaption>
-    </td>
-    <td align="center">
-      <img src="./assets/setup_photo.png" width="400"/>
-      <br />
-      <figcaption><b>Fig 2. Experimental Setup</b></figcaption>
-    </td>
-  </tr>
-</table>
+TThe proposed method is validated on two imaging frameworks: CASSI and DDN:
 
-### Light Transport Model
+### Coded Aperture Snapshot Spectral Imaging (CASSI) system
 
-The image formation process is modeled as:
+![Prototype Setup](./assets/cassi_setup.png)
+*Fig 1. Schematic of the CASSI Prototype.*
 
-$$I = \mathcal{P}(O * K) + \eta$$
+### Dual-Disperser Notch-mask (DDN) system
 
-Where $I$ is the captured intensity, $O$ is the object, $K$ is the Point Spread Function (PSF), and $\eta$ is the noise term.
+![Prototype Setup](./assets/ddn_setup.png)
+*Fig 1. Schematic of the CASSI Prototype.*
 
 ## 🚀 Getting Started
 
