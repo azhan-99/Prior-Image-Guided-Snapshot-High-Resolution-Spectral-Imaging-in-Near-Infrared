@@ -17,12 +17,12 @@ TThe proposed method is validated on two imaging frameworks: CASSI and DDN:
 
 ### Coded Aperture Snapshot Spectral Imaging (CASSI) system
 
-![Prototype Setup](./assets/Fig_SDCASSI_Prototype.pdf)
+![Prototype Setup](./assets/Fig_SDCASSI_Prototype.png)
 *Fig 1. Schematic of the CASSI Prototype.*
 
 ### Dual-Disperser Notch-mask (DDN) system
 
-![Prototype Setup](./assets/Fig_DDN_Prototype.pdf)
+![Prototype Setup](./assets/Fig_DDN_Prototype.png)
 *Fig 1. Schematic of the CASSI Prototype.*
 
 ## 🚀 Getting Started
